@@ -69,6 +69,10 @@ namespace Pelicula
         {
             Console.WriteLine($"{Nombre} ({Año})");
         }
+          public override string ToString()
+        {
+            return $"{Nombre} ({Año})";
+        }
     }
 
     // Puedes probar tu código en Main() pero lo importante
