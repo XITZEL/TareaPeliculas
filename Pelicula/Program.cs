@@ -80,7 +80,7 @@ namespace Pelicula
 
         static void Main(string[] args)
         {   
-           /*
+           
             //SEGUNDA PARTE
            //Lista de Peliculas
            List<Pelicula>peliculas = new List<Pelicula>();
@@ -105,7 +105,7 @@ namespace Pelicula
           p2.SetTitulo("Top Gun Maverick");
           p2.SetAño(2022);
           Console.WriteLine("{0}({1})", p2.GetTitulo(), p2.GetAño());
-          */
+          
           //TERCERA PARTE
             Pelicula p3 = new Pelicula("La La Land", 2016);
              p3.AgregaActor(new Actor("Ryan Gosling", 1980));
